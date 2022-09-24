@@ -9,9 +9,6 @@ function App() {
   const [count, setCount] = useState(0);
   const [random, setRandom] = useState('Default Random String');
   const randomInputRef = useRef(null);
-  // const setRandomFunc = () => {
-  //   console.log()
-  // };
   return (
     <div className="App">
       <p>
